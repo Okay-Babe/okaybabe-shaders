@@ -1,0 +1,29 @@
+{
+  "name": "video",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Remotion compositions for @okaybabe/shaders — renders each shader to MP4 for hosting at previews.okaybabe.dev",
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render",
+    "render:halation": "remotion render halation out/halation-1080p.mp4 --codec h264 --crf 23 --pixel-format yuv420p",
+    "render:all": "remotion render --concurrency 2",
+    "upload-r2": "node scripts/upload-r2.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@okaybabe/shaders": "workspace:*",
+    "@remotion/cli": "4.0.465",
+    "react": "19.2.3",
+    "react-dom": "19.2.6",
+    "remotion": "4.0.461"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
+  }
+}

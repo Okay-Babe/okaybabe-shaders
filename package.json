@@ -1,0 +1,119 @@
+{
+  "name": "@okaybabe/shaders",
+  "version": "1.0.0",
+  "description": "Free GLSL fragment shader pack from okaybabe — 13 hand-authored shaders with React + react-three-fiber wrappers. MIT licensed.",
+  "license": "MIT",
+  "author": "Okay Babe, LLC <hello@okaybabe.com> (https://okaybabe.com)",
+  "homepage": "https://okaybabe.com/gradients",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Okay-Babe/okaybabe-shaders.git"
+  },
+  "bugs": "https://github.com/Okay-Babe/okaybabe-shaders/issues",
+  "keywords": [
+    "shaders",
+    "glsl",
+    "webgl",
+    "react",
+    "react-three-fiber",
+    "r3f",
+    "three",
+    "gradient",
+    "ambient",
+    "background",
+    "okaybabe"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./r3f": {
+      "types": "./dist/r3f.d.ts",
+      "import": "./dist/r3f.js",
+      "require": "./dist/r3f.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "test:watch": "vitest",
+    "lint": "echo '(lint TBD)'",
+    "size": "size-limit"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0",
+    "@react-three/fiber": "^8.0.0 || ^9.0.0",
+    "three": "^0.150.0 || ^0.160.0 || ^0.170.0 || ^0.184.0"
+  },
+  "peerDependenciesMeta": {
+    "@react-three/fiber": {
+      "optional": true
+    },
+    "three": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.170.0",
+    "@react-three/fiber": "^9.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "size-limit": "^11.0.0",
+    "@size-limit/preset-small-lib": "^11.0.0",
+    "three": "^0.184.0",
+    "tsup": "^8.0.0",
+    "typescript": "~6.0.3",
+    "vitest": "^3.0.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "postcss": "^8.5.10",
+      "vite": "^7.3.3"
+    }
+  },
+  "size-limit": [
+    {
+      "name": "Halation alone (zero-dep)",
+      "path": "dist/index.js",
+      "import": "{ Halation }",
+      "limit": "6 KB"
+    },
+    {
+      "name": "Full pack (zero-dep wrappers)",
+      "path": "dist/index.js",
+      "limit": "35 KB"
+    },
+    {
+      "name": "r3f variants (peer deps excluded)",
+      "path": "dist/r3f.js",
+      "limit": "15 KB"
+    }
+  ]
+}
