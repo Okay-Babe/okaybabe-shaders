@@ -14,7 +14,7 @@ importers:
     devDependencies:
       '@react-three/fiber':
         specifier: ^9.0.0
-        version: 9.6.1(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(three@0.184.0)
+        version: 9.6.1(@types/react@19.2.15)(react-dom@19.2.7(react@19.2.6))(react@19.2.6)(three@0.184.0)
       '@size-limit/preset-small-lib':
         specifier: ^11.0.0
         version: 11.2.0(size-limit@11.2.0)
@@ -35,7 +35,7 @@ importers:
         version: 19.2.6
       react-dom:
         specifier: ^19.0.0
-        version: 19.2.6(react@19.2.6)
+        version: 19.2.7(react@19.2.6)
       size-limit:
         specifier: ^11.0.0
         version: 11.2.0
@@ -59,13 +59,13 @@ importers:
         version: link:../..
       next:
         specifier: 16.2.7
-        version: 16.2.7(react-dom@19.2.6(react@19.2.4))(react@19.2.4)
+        version: 16.2.7(react-dom@19.2.7(react@19.2.4))(react@19.2.4)
       react:
         specifier: 19.2.4
         version: 19.2.4
       react-dom:
-        specifier: 19.2.6
-        version: 19.2.6(react@19.2.4)
+        specifier: 19.2.7
+        version: 19.2.7(react@19.2.4)
     devDependencies:
       '@tailwindcss/postcss':
         specifier: ^4.1.12
@@ -93,16 +93,16 @@ importers:
         version: link:../..
       '@remotion/cli':
         specifier: 4.0.472
-        version: 4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+        version: 4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
       react:
         specifier: 19.2.3
         version: 19.2.3
       react-dom:
-        specifier: 19.2.6
-        version: 19.2.6(react@19.2.3)
+        specifier: 19.2.7
+        version: 19.2.7(react@19.2.3)
       remotion:
         specifier: 4.0.461
-        version: 4.0.461(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+        version: 4.0.461(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
     devDependencies:
       '@types/node':
         specifier: ^25.9.1
@@ -2056,10 +2056,10 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  react-dom@19.2.6:
-    resolution: {integrity: sha512-0prMI+hvBbPjsWnxDLxlCGyM8PN6UuWjEUCYmZhO67xIV9Xasa/r/vDnq+Xyq4Lo27g8QSbO5YzARu0D1Sps3g==}
+  react-dom@19.2.7:
+    resolution: {integrity: sha512-t0BRVXvbiE/o20Hfw669rLbMCDWtYZLvmJigy2f0MxsXF+71pxhR3xOkspmsO8h3ZlNzyibAmtCa3l4lYKk6gQ==}
     peerDependencies:
-      react: ^19.2.6
+      react: ^19.2.7
 
   react-refresh@0.18.0:
     resolution: {integrity: sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw==}
@@ -2988,7 +2988,7 @@ snapshots:
   '@next/swc-win32-x64-msvc@16.2.7':
     optional: true
 
-  '@react-three/fiber@9.6.1(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(three@0.184.0)':
+  '@react-three/fiber@9.6.1(@types/react@19.2.15)(react-dom@19.2.7(react@19.2.6))(react@19.2.6)(three@0.184.0)':
     dependencies:
       '@babel/runtime': 7.29.2
       '@types/webxr': 0.5.24
@@ -2996,32 +2996,32 @@ snapshots:
       buffer: 6.0.3
       its-fine: 2.0.0(@types/react@19.2.15)(react@19.2.6)
       react: 19.2.6
-      react-use-measure: 2.1.7(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      react-use-measure: 2.1.7(react-dom@19.2.7(react@19.2.6))(react@19.2.6)
       scheduler: 0.27.0
       suspend-react: 0.1.3(react@19.2.6)
       three: 0.184.0
       use-sync-external-store: 1.6.0(react@19.2.6)
       zustand: 5.0.13(@types/react@19.2.15)(react@19.2.6)(use-sync-external-store@1.6.0(react@19.2.6))
     optionalDependencies:
-      react-dom: 19.2.6(react@19.2.6)
+      react-dom: 19.2.7(react@19.2.6)
     transitivePeerDependencies:
       - '@types/react'
       - immer
 
-  '@remotion/bundler@4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.6(react@19.2.3))(react@19.2.3)':
+  '@remotion/bundler@4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.7(react@19.2.3))(react@19.2.3)':
     dependencies:
       '@remotion/media-parser': 4.0.472
-      '@remotion/studio': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
-      '@remotion/studio-shared': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      '@remotion/studio': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
+      '@remotion/studio-shared': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
       '@remotion/timeline-utils': 4.0.472
       '@rspack/core': 1.7.6(@swc/helpers@0.5.15)
       '@rspack/plugin-react-refresh': 1.6.1(react-refresh@0.18.0)
       css-loader: 7.1.4(@rspack/core@1.7.6(@swc/helpers@0.5.15))(webpack@5.105.0(esbuild@0.28.0)(lightningcss@1.32.0)(postcss@8.5.15))
       esbuild: 0.28.0
       react: 19.2.3
-      react-dom: 19.2.6(react@19.2.3)
+      react-dom: 19.2.7(react@19.2.3)
       react-refresh: 0.18.0
-      remotion: 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      remotion: 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
       style-loader: 4.0.0(webpack@5.105.0(esbuild@0.28.0)(lightningcss@1.32.0)(postcss@8.5.15))
       webpack: 5.105.0(esbuild@0.27.7)(lightningcss@1.32.0)(postcss@8.5.15)
     transitivePeerDependencies:
@@ -3042,21 +3042,21 @@ snapshots:
       - webpack-cli
       - webpack-hot-middleware
 
-  '@remotion/cli@4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.6(react@19.2.3))(react@19.2.3)':
+  '@remotion/cli@4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.7(react@19.2.3))(react@19.2.3)':
     dependencies:
-      '@remotion/bundler': 4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
-      '@remotion/media-utils': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
-      '@remotion/player': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
-      '@remotion/renderer': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
-      '@remotion/studio': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
-      '@remotion/studio-server': 4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
-      '@remotion/studio-shared': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      '@remotion/bundler': 4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
+      '@remotion/media-utils': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
+      '@remotion/player': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
+      '@remotion/renderer': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
+      '@remotion/studio': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
+      '@remotion/studio-server': 4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
+      '@remotion/studio-shared': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
       dotenv: 17.3.1
       minimist: 1.2.6
       prompts: 2.4.2
       react: 19.2.3
-      react-dom: 19.2.6(react@19.2.3)
-      remotion: 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      react-dom: 19.2.7(react@19.2.3)
+      remotion: 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
     transitivePeerDependencies:
       - '@minify-html/node'
       - '@swc/core'
@@ -3100,27 +3100,27 @@ snapshots:
 
   '@remotion/media-parser@4.0.472': {}
 
-  '@remotion/media-utils@4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)':
+  '@remotion/media-utils@4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)':
     dependencies:
       mediabunny: 1.45.0
       react: 19.2.3
-      react-dom: 19.2.6(react@19.2.3)
-      remotion: 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      react-dom: 19.2.7(react@19.2.3)
+      remotion: 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
 
-  '@remotion/player@4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)':
+  '@remotion/player@4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)':
     dependencies:
       react: 19.2.3
-      react-dom: 19.2.6(react@19.2.3)
-      remotion: 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      react-dom: 19.2.7(react@19.2.3)
+      remotion: 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
 
-  '@remotion/renderer@4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)':
+  '@remotion/renderer@4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)':
     dependencies:
       '@remotion/licensing': 4.0.472
       '@remotion/streaming': 4.0.472
       execa: 5.1.1
       react: 19.2.3
-      react-dom: 19.2.6(react@19.2.3)
-      remotion: 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      react-dom: 19.2.7(react@19.2.3)
+      remotion: 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
       source-map: 0.8.0-beta.0
       ws: 8.20.1
     optionalDependencies:
@@ -3137,18 +3137,18 @@ snapshots:
 
   '@remotion/streaming@4.0.472': {}
 
-  '@remotion/studio-server@4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.6(react@19.2.3))(react@19.2.3)':
+  '@remotion/studio-server@4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.7(react@19.2.3))(react@19.2.3)':
     dependencies:
       '@babel/parser': 7.24.1
       '@babel/types': 7.24.0
-      '@remotion/bundler': 4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
-      '@remotion/renderer': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
-      '@remotion/studio-shared': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      '@remotion/bundler': 4.0.472(@swc/helpers@0.5.15)(lightningcss@1.32.0)(postcss@8.5.15)(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
+      '@remotion/renderer': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
+      '@remotion/studio-shared': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
       memfs: 3.4.3
       open: 8.4.2
       prettier: 3.8.1
       recast: 0.23.11
-      remotion: 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      remotion: 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
       semver: 7.5.3
     transitivePeerDependencies:
       - '@minify-html/node'
@@ -3170,29 +3170,29 @@ snapshots:
       - webpack-cli
       - webpack-hot-middleware
 
-  '@remotion/studio-shared@4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)':
+  '@remotion/studio-shared@4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)':
     dependencies:
-      remotion: 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      remotion: 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
     transitivePeerDependencies:
       - react
       - react-dom
 
-  '@remotion/studio@4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)':
+  '@remotion/studio@4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
-      '@remotion/media-utils': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
-      '@remotion/player': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
-      '@remotion/renderer': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
-      '@remotion/studio-shared': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      '@remotion/media-utils': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
+      '@remotion/player': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
+      '@remotion/renderer': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
+      '@remotion/studio-shared': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
       '@remotion/timeline-utils': 4.0.472
-      '@remotion/web-renderer': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
-      '@remotion/zod-types': 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)(zod@4.3.6)
+      '@remotion/web-renderer': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
+      '@remotion/zod-types': 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)(zod@4.3.6)
       mediabunny: 1.45.0
       memfs: 3.4.3
       open: 8.4.2
       react: 19.2.3
-      react-dom: 19.2.6(react@19.2.3)
-      remotion: 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      react-dom: 19.2.7(react@19.2.3)
+      remotion: 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
       semver: 7.5.3
       zod: 4.3.6
     transitivePeerDependencies:
@@ -3203,7 +3203,7 @@ snapshots:
     dependencies:
       mediabunny: 1.45.0
 
-  '@remotion/web-renderer@4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)':
+  '@remotion/web-renderer@4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)':
     dependencies:
       '@mediabunny/aac-encoder': 1.45.0(mediabunny@1.45.0)
       '@mediabunny/flac-encoder': 1.45.0(mediabunny@1.45.0)
@@ -3211,12 +3211,12 @@ snapshots:
       '@remotion/licensing': 4.0.472
       mediabunny: 1.45.0
       react: 19.2.3
-      react-dom: 19.2.6(react@19.2.3)
-      remotion: 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      react-dom: 19.2.7(react@19.2.3)
+      remotion: 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
 
-  '@remotion/zod-types@4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)(zod@4.3.6)':
+  '@remotion/zod-types@4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)(zod@4.3.6)':
     dependencies:
-      remotion: 4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3)
+      remotion: 4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3)
       zod: 4.3.6
     transitivePeerDependencies:
       - react
@@ -4091,7 +4091,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next@16.2.7(react-dom@19.2.6(react@19.2.4))(react@19.2.4):
+  next@16.2.7(react-dom@19.2.7(react@19.2.4))(react@19.2.4):
     dependencies:
       '@next/env': 16.2.7
       '@swc/helpers': 0.5.15
@@ -4099,7 +4099,7 @@ snapshots:
       caniuse-lite: 1.0.30001793
       postcss: 8.5.15
       react: 19.2.4
-      react-dom: 19.2.6(react@19.2.4)
+      react-dom: 19.2.7(react@19.2.4)
       styled-jsx: 5.1.6(react@19.2.4)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.2.7
@@ -4201,28 +4201,28 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  react-dom@19.2.6(react@19.2.3):
+  react-dom@19.2.7(react@19.2.3):
     dependencies:
       react: 19.2.3
       scheduler: 0.27.0
 
-  react-dom@19.2.6(react@19.2.4):
+  react-dom@19.2.7(react@19.2.4):
     dependencies:
       react: 19.2.4
       scheduler: 0.27.0
 
-  react-dom@19.2.6(react@19.2.6):
+  react-dom@19.2.7(react@19.2.6):
     dependencies:
       react: 19.2.6
       scheduler: 0.27.0
 
   react-refresh@0.18.0: {}
 
-  react-use-measure@2.1.7(react-dom@19.2.6(react@19.2.6))(react@19.2.6):
+  react-use-measure@2.1.7(react-dom@19.2.7(react@19.2.6))(react@19.2.6):
     dependencies:
       react: 19.2.6
     optionalDependencies:
-      react-dom: 19.2.6(react@19.2.6)
+      react-dom: 19.2.7(react@19.2.6)
 
   react@19.2.3: {}
 
@@ -4240,15 +4240,15 @@ snapshots:
       tiny-invariant: 1.3.3
       tslib: 2.8.1
 
-  remotion@4.0.461(react-dom@19.2.6(react@19.2.3))(react@19.2.3):
+  remotion@4.0.461(react-dom@19.2.7(react@19.2.3))(react@19.2.3):
     dependencies:
       react: 19.2.3
-      react-dom: 19.2.6(react@19.2.3)
+      react-dom: 19.2.7(react@19.2.3)
 
-  remotion@4.0.472(react-dom@19.2.6(react@19.2.3))(react@19.2.3):
+  remotion@4.0.472(react-dom@19.2.7(react@19.2.3))(react@19.2.3):
     dependencies:
       react: 19.2.3
-      react-dom: 19.2.6(react@19.2.3)
+      react-dom: 19.2.7(react@19.2.3)
 
   require-from-string@2.0.2: {}
 
