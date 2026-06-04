@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discord — okaybabe community
+    url: https://discord.gg/uYZbByZSjr
+    about: Quick questions, ideas, or just hanging out
+  - name: Companion pack — okaybabe-gradient-pack
+    url: https://github.com/Okay-Babe/okaybabe-gradient-pack
+    about: Issues with the static gradient or texture formats belong in the gradient-pack repo
