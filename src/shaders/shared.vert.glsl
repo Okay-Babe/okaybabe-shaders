@@ -1,5 +1,5 @@
 // okaybabe canonical fullscreen-quad vertex shader.
-// Used by all 12 fragment shaders. Passes UV in [0,1] range.
+// Used by all 13 fragment shaders. Passes UV in [0,1] range.
 // WebGL 1.0 compatible — works as WebGL 2.0 fallback.
 
 attribute vec2 aPosition;

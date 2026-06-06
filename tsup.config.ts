@@ -21,7 +21,7 @@ export default defineConfig({
   // (consumer doesn't need a bundler plugin) and tree-shakeable per shader.
   esbuildOptions(options) {
     options.banner = {
-      js: '/* @okaybabe/shaders v1.0.0 — MIT — https://okaybabe.com/gradients */',
+      js: '/* @okaybabe/shaders v1.0.0 — MIT — https://okaybabe.com/shaders */',
     };
   },
 });
