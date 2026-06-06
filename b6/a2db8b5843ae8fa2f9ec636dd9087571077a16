@@ -1,0 +1,45 @@
+src/shaders/shared.vert.glsl
+  s_a62cd27001cb80::t_295e55ceb5afd0 2
+src/lib/ShaderCanvas.tsx
+  s_a62cd27001cb80::t_cdbd756757bc5d 288-289,291,293-295,297-301,348-353,357-392,400-401
+  s_a62cd27001cb80::t_6ebae8ffc2e483 265,267,271
+  s_a62cd27001cb80::t_93bff0fa87399b 438-441
+  s_a62cd27001cb80::t_4fc41a6915796f 255-259,266
+  s_a62cd27001cb80::t_49cf8899529944 354-356
+  s_a62cd27001cb80::t_29167869f25a98 154-157,159-161,163-175,179-181,183,191-208,214-221,223-224
+  s_a62cd27001cb80::t_a91f089ced491b 210-213
+  s_a62cd27001cb80::t_a11699bf56216b 13-19
+  s_a62cd27001cb80::t_a0f68a867ebebd 95-102
+  s_a62cd27001cb80::t_2c5cce5e2e8f0e 113-116
+  s_a62cd27001cb80::t_199c326e3fa9b1 158,162,176-178,182,186-188
+  s_a62cd27001cb80::t_1af5f72ebda970 209
+src/shaders/shared.utils.glsl
+  s_a62cd27001cb80::t_54f7d6f6337074 9
+CHANGELOG.md
+  s_a62cd27001cb80::t_6212b0ce511347 68
+  s_a62cd27001cb80::t_e4c04c90046104 10-31
+src/lib/useWebGLSupported.ts
+  s_a62cd27001cb80::t_06f5593033af6b 4
+tsup.config.ts
+  s_a62cd27001cb80::t_08669e8c93fd53 24
+deployment.md
+  s_a62cd27001cb80::t_1f2fe2cb956f81 1-64
+package.json
+  s_a62cd27001cb80::t_cb257ad7a14500 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "b6a2db8b5843ae8fa2f9ec636dd9087571077a16",
+  "prompts": {},
+  "sessions": {
+    "s_a62cd27001cb80": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f447352a-5adb-4ba0-a40c-a31fb1ba57d2",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": null
+    }
+  }
+}
