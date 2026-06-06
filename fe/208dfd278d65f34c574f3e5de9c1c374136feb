@@ -1,0 +1,38 @@
+CHANGELOG.md
+  s_a62cd27001cb80::t_e4c04c90046104 10-31
+  s_a62cd27001cb80::t_6212b0ce511347 68
+src/lib/useWebGLSupported.ts
+  s_a62cd27001cb80::t_06f5593033af6b 4
+package.json
+  s_a62cd27001cb80::t_cb257ad7a14500 7
+src/shaders/shared.vert.glsl
+  s_a62cd27001cb80::t_295e55ceb5afd0 2
+src/lib/ShaderCanvas.tsx
+  s_a62cd27001cb80::t_29167869f25a98 150-153,155-175,177-179,185-202,204-212,214-215
+  s_a62cd27001cb80::t_607f82b9a41898 154
+  s_a62cd27001cb80::t_1af5f72ebda970 203
+  s_a62cd27001cb80::t_849d30ae79e2fa 182
+  s_a62cd27001cb80::t_a11699bf56216b 13-19
+  s_a62cd27001cb80::t_a0f68a867ebebd 95-102
+  s_a62cd27001cb80::t_6ebae8ffc2e483 251-253,257
+  s_a62cd27001cb80::t_cdbd756757bc5d 274-275,277,279-281,283-287,334-375,383-384
+  s_a62cd27001cb80::t_93bff0fa87399b 421-424
+deployment.md
+  s_a62cd27001cb80::t_1f2fe2cb956f81 1-64
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "fe208dfd278d65f34c574f3e5de9c1c374136feb",
+  "prompts": {},
+  "sessions": {
+    "s_a62cd27001cb80": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f447352a-5adb-4ba0-a40c-a31fb1ba57d2",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "prettycolor <bradleysspaulding@gmail.com>"
+    }
+  }
+}
