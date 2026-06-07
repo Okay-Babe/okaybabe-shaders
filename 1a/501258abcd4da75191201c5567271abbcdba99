@@ -1,0 +1,22 @@
+package.json
+  s_00b8df50e39617::t_03684f06ad9aa4 7
+  s_00b8df50e39617::t_9f232ed217e84d 3
+CHANGELOG.md
+  s_00b8df50e39617::t_22624edb288447 10-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "1a501258abcd4da75191201c5567271abbcdba99",
+  "prompts": {},
+  "sessions": {
+    "s_00b8df50e39617": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "87d527f1-265f-4017-9af8-a6e16eb2f446",
+        "model": "default"
+      },
+      "human_author": "prettycolor <bradleysspaulding@gmail.com>"
+    }
+  }
+}
