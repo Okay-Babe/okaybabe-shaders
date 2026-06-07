@@ -1,10 +1,10 @@
 {
   "name": "@okaybabe/shaders",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Free GLSL fragment shader pack from okaybabe — 13 hand-authored shaders with React + react-three-fiber wrappers. MIT licensed.",
   "license": "MIT",
   "author": "Okay Babe, LLC <hello@okaybabe.com> (https://okaybabe.com)",
-  "homepage": "https://okaybabe.com/shaders",
+  "homepage": "https://okaybabe.com/shaders/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Okay-Babe/okaybabe-shaders.git"

@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] — 2026-06-07
+
+### Changed
+
+- `package.json` `homepage` → `https://okaybabe.com/shaders/` (trailing slash aligns with site canonical + `_redirects`).
+
 ## [1.0.1] — 2026-06-07
 
 ### Fixed
