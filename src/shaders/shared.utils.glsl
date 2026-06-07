@@ -6,7 +6,7 @@
 //         + Book of Shaders fbm chapter
 //         + okaybabe WebGL 5-pattern stack (the okaybabe WebGL shader-stability guidelines)
 //
-// MIT — © 2026 okaybabe — https://okaybabe.com/gradients
+// MIT — © 2026 okaybabe — https://okaybabe.com/shaders
 
 const float TAU = 6.28318530718;
 const float PI  = 3.14159265359;

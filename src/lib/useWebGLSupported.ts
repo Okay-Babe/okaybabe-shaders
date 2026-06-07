@@ -1,7 +1,7 @@
 /**
  * useWebGLSupported — one-time WebGL detection on mount.
  *
- * Tries WebGL 1.0 (sufficient for all 12 okaybabe shaders). Cleans up the
+ * Tries WebGL 1.0 (sufficient for all 13 okaybabe shaders). Cleans up the
  * test context immediately via WEBGL_lose_context extension to avoid leaking
  * a context slot (browsers cap at 8-16 active contexts).
  *

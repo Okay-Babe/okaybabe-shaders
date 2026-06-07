@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **WebGL context-loss recovery.** `ShaderCanvas` now handles `webglcontextlost`
+  (`preventDefault()` + drop the invalidated program/buffer + hide the canvas so
+  the CSS fallback shows) and `webglcontextrestored` (rebuild the program + quad
+  buffer on the recovered context, reset the viewport, resume). Previously a
+  GPU/driver reset — common on Firefox, tab backgrounding, or GPU OOM — left a
+  permanently blank canvas with no recovery path. Benefits every React consumer.
+- **Reduced motion now truly stops the render loop.** Under
+  `prefers-reduced-motion` the engine draws a single static frame and cancels
+  `requestAnimationFrame` (redrawing only on resize or context restore), instead
+  of redrawing a frozen frame on every rAF tick. This makes the implementation
+  match the behavior the v1.0.0 changelog already documented. External/Remotion
+  time mode is unaffected and continues to animate deterministically.
+
+### Changed
+
+- `package.json` `homepage` → `https://okaybabe.com/shaders`.
+- Corrected MP4 preview host references to `previews.okaybabe.dev` (the R2
+  manifest source of truth; the prior `.com` was drift).
+- Doc-comment shader count `12` → `13` (`shared.vert.glsl`, `useWebGLSupported`).
+
 ## [1.0.0] — 2026-05-23
 
 ### Added
@@ -43,7 +65,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **IntersectionObserver auto-pause** when scrolled out of view.
 - **r3f color-accuracy directive**: `react-three-fiber` consumers must pass `gl={{ outputColorSpace: THREE.LinearSRGBColorSpace }}` on their `<Canvas>` to prevent double-gamma of brand violet `#7C3AED` under three.js r155+ default color management. Documented in README; zero-dep wrappers handle this internally.
 - **Sigstore provenance attestation**: published builds carry npm sigstore provenance via the CI release workflow. Consumers can verify with `npm audit signatures` once the package lands on the registry.
-- **MP4 previews** color-graded in DaVinci Resolve and hosted at `previews.okaybabe.com/v1/{shader}-{tier}.mp4` (1080p · 1080sq · 720p · 540sq + poster JPG per shader).
+- **MP4 previews** color-graded in DaVinci Resolve and hosted at `previews.okaybabe.dev/v1/{shader}-{tier}.mp4` (1080p · 1080sq · 720p · 540sq + poster JPG per shader).
 
 ### License
 
