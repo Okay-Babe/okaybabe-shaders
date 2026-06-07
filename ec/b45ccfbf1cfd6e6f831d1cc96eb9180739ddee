@@ -1,0 +1,21 @@
+package.json
+  s_00b8df50e39617::t_6b05fb2bf807a1 3
+CHANGELOG.md
+  s_00b8df50e39617::t_9fadceeb5f891a 10-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "ecb45ccfbf1cfd6e6f831d1cc96eb9180739ddee",
+  "prompts": {},
+  "sessions": {
+    "s_00b8df50e39617": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "87d527f1-265f-4017-9af8-a6e16eb2f446",
+        "model": "composer-2.5"
+      },
+      "human_author": "prettycolor <bradleysspaulding@gmail.com>"
+    }
+  }
+}
