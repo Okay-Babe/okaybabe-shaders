@@ -1,4 +1,4 @@
-<!-- @okaybabe/shaders — README -->
+<!-- @okaybabe/shaders: README -->
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 
 <br>
 
-Companion to [okaybabe-gradient-pack](https://github.com/Okay-Babe/okaybabe-gradient-pack) — the gradient + texture pack ships the static surfaces, this ships the live WebGL.
+Companion to [okaybabe-gradient-pack](https://github.com/Okay-Babe/okaybabe-gradient-pack): the gradient + texture pack ships the static surfaces, this ships the live WebGL.
 
 </div>
 
@@ -26,8 +26,8 @@ Companion to [okaybabe-gradient-pack](https://github.com/Okay-Babe/okaybabe-grad
 
 | Shader | Character |
 |---|---|
-| **Aperture Bloom** | Animated prismatic radial — 5-blade okaybabe identity, alive |
-| **Halation** | Subtle chromatic-aberration glow — the UI-grade primitive |
+| **Aperture Bloom** | Animated prismatic radial: 5-blade okaybabe identity, alive |
+| **Halation** | Subtle chromatic-aberration glow: the UI-grade primitive |
 | **Quarry** | Slow flowing layered noise, geological pace |
 | **Ink Run** | Domain-warped ink bleed, wet ink soaking into warm paper |
 | **Optic** | Concentric rings of refraction |
@@ -37,7 +37,7 @@ Companion to [okaybabe-gradient-pack](https://github.com/Okay-Babe/okaybabe-grad
 | **Vellum** | Premium-stationery near-static texture |
 | **Sirocco** | Warm-palette wave displacement |
 | **Hessian** | Burlap-weave noise with chromatic shift |
-| **Chroma Bleed** | Discrete chromatic fringing around bright peaks — CRT-style spectral artifacts |
+| **Chroma Bleed** | Discrete chromatic fringing around bright peaks: CRT-style spectral artifacts |
 | **Membrane** | Cellular outlines on warm substrate, microscope-view tissue |
 
 Each ships as: raw `.glsl` source + zero-dep React wrapper + optional react-three-fiber component + MP4 preview.
@@ -84,11 +84,11 @@ import { HalationMaterial } from '@okaybabe/shaders/r3f';
 </Canvas>
 ```
 
-Peer dep — `pnpm add three @react-three/fiber` is on you.
+Peer dep: `pnpm add three @react-three/fiber` is on you.
 
 ### Color accuracy in r3f
 
-The shaders do manual sRGB conversion internally. Three.js r155+ enables color management by default with `outputColorSpace = SRGBColorSpace`, which would apply sRGB encoding a second time — visibly desaturating the brand violet `#7C3AED`. For accurate color in r3f, set the Canvas's output color space to linear:
+The shaders do manual sRGB conversion internally. Three.js r155+ enables color management by default with `outputColorSpace = SRGBColorSpace`, which would apply sRGB encoding a second time, visibly desaturating the brand violet `#7C3AED`. For accurate color in r3f, set the Canvas's output color space to linear:
 
 ```tsx
 import { Canvas } from '@react-three/fiber';
@@ -103,17 +103,17 @@ import { HalationMaterial } from '@okaybabe/shaders/r3f';
 </Canvas>
 ```
 
-The zero-dep wrappers (the `Quick start` example above) handle this internally — only r3f consumers need to opt in.
+The zero-dep wrappers (the `Quick start` example above) handle this internally. Only r3f consumers need to opt in.
 
 ## Designed for real product surfaces
 
 Every shader implements the [WebGL 5-pattern stack](docs/webgl-5-pattern-stack.md) by default:
 
-1. **Spatial noise, no temporal grain** — no matrix-rain buzzing
-2. **DPR-scaled to 65% of native** — buttery on Retina, kind to mobile GPUs
-3. **Triple-gate render loop** — pauses on offscreen / scrolling / tab-hidden
-4. **Continuous-time game loop** — no time-jump pops on scroll resume
-5. **Slow mouse lerp (0.07)** — cinematic, never frantic
+1. **Spatial noise, no temporal grain**: no matrix-rain buzzing
+2. **DPR-scaled to 65% of native**: buttery on Retina, kind to mobile GPUs
+3. **Triple-gate render loop**: pauses on offscreen / scrolling / tab-hidden
+4. **Continuous-time game loop**: no time-jump pops on scroll resume
+5. **Slow mouse lerp (0.07)**: cinematic, never frantic
 
 You get this for free. Just drop the component.
 
@@ -126,10 +126,10 @@ You get this for free. Just drop the component.
 
 ## License
 
-MIT — see `LICENSE`. Free for personal and commercial use. No attribution required.
+MIT: see `LICENSE`. Free for personal and commercial use. No attribution required.
 
 ## Built by
 
-[the okaybabe studio](https://okaybabe.com) — the design studio that ships end-to-end.
+[the okaybabe studio](https://okaybabe.com), the design studio that ships end-to-end.
 
-Companion to **[okaybabe-gradient-pack](https://github.com/Okay-Babe/okaybabe-gradient-pack)** — 41 hand-authored gradients + 10 procedural texture filters. Same MIT license, same brand canon.
+Companion to **[okaybabe-gradient-pack](https://github.com/Okay-Babe/okaybabe-gradient-pack)**: 41 hand-authored gradients + 10 procedural texture filters. Same MIT license, same brand canon.
